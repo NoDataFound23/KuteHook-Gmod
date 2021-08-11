@@ -39,9 +39,9 @@ local tblFiles = {
 
 -- Include all of our files in order.
 for _, File in pairs(tblFiles) do
-	include('kuteketx-pk/' .. File)
+	include('KuteHook-Gmod-main/' .. File)
 	MsgC(pS.g_pDefaultColor, string.format('File "%s" loaded.\n', File))
 end
 
 -- initialize the cheat.
-include('kuteketx-pk/init.lua')
+include('KuteHook-Gmod-main/init.lua')
